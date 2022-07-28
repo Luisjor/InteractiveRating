@@ -33,12 +33,11 @@ function ChangeHTML(texto) {
         var Container = document.getElementById("Container")
         var ThankYouContainer = 
             `<div id="ThankYouBox">
-            <img src="images\icon-star.svg" class="StarImg">
             <img src="images/illustration-thank-you.svg" class="ThankYouImg">
             <span class="Calificacion">${texto}</span>
             <h1>Thank you!</h1>
             <span class="centered">
-                Wwwwwe appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in touch!
+                We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in touch!
             </span>
             </div>`
         Container.innerHTML = ThankYouContainer
